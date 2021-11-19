@@ -36,7 +36,6 @@
 .main{
     float: left;
     width: 50%;
-    min-width: max-content;
     margin-top: 18px;
     padding: 1px;
     height: 1100px;
