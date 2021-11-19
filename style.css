@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    margin: 35px;
+    padding: 10px;
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+    border: 1px solid grey;
+}
+
+.header{
+  padding-left: 20px;
+}
+.header-title{
+    color: rgb(48, 46, 46);
+    display: inline;
+    font-size:55px;
+}
+.header-subtitle{
+    font-size: 24px;
+    margin-top: 6px;
+    margin-bottom:6px;
+}
+.header-info li{
+    margin-top: 16px;
+    margin-bottom: 60px;
+    list-style-type: none;
+}
+
+.main{
+    float: left;
+    width: 50%;
+    padding: 1px;
+    height: 1100px;
+    padding-left: 15px;
+    border-left-style: dashed;
+    border-color: dimgrey;
+  
+}
+a{
+     text-decoration: none;
+}
+a:link, a:visited {
+    color:lightseagreen;
+    text-decoration: none;
+    cursor:progress;
+  }
+  
+  a:link:active, a:visited:active {
+    color:teal;
+  }
+.main-title{
+    padding-bottom: -15px;
+}
+.main-subtitle{
+    padding-top: 22px;
+    padding-bottom: 8px;
+    font-size:17px ;
+    
+}
+.main-subtitel-context span{
+display: block;
+line-height: 2;
+}
+.skills{
+    padding-top: 40px;
+    padding-bottom: 40px ;
+}
+.Projname{
+    padding-bottom: 27px;
+    
+}
+.main-subtitel-address{
+    padding-bottom: 35px;
+}
+p{  
+    padding-bottom:40px ;
+    width: 340px;
+    text-align: left;
+}
