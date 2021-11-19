@@ -36,6 +36,8 @@
 .main{
     float: left;
     width: 50%;
+    min-width: max-content;
+    margin-top: 18px;
     padding: 1px;
     height: 1100px;
     padding-left: 15px;
@@ -55,9 +57,7 @@ a:link, a:visited {
   a:link:active, a:visited:active {
     color:teal;
   }
-.main-title{
-    padding-bottom: -15px;
-}
+
 .main-subtitle{
     padding-top: 22px;
     padding-bottom: 8px;
